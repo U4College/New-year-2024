@@ -26,7 +26,7 @@ body {
   font-family: "Bilbo Swash Caps", cursive;
   font-size: 100px;
   font-weight: bolder;
-  color: #FFD700;
+  color: #ffd700;
   text-align: center;
   position: absolute;
   top: 50%;
@@ -46,52 +46,48 @@ body {
 }
 
 .y1 {
-  color: #C0C0C0;
+  color: #c0c0c0;
   animation: y1colorful 2s ease-in-out 5.75s forwards;
 }
 .y2 {
-  color: #C0C0C0;
+  color: #c0c0c0;
   animation: y2colorful 2s ease-in-out 5.75s forwards;
 }
 .y3 {
-  color: #C0C0C0;
+  color: #c0c0c0;
   animation: y3colorful 2s ease-in-out 5.75s forwards;
 }
 .y4 {
-  color: #C0C0C0;
+  color: #c0c0c0;
   animation: y4colorful 2s ease-in-out 5.75s forwards;
 }
 
 @keyframes y1colorful {
- 
   100% {
     color: #008000c8;
   }
 }
 @keyframes y2colorful {
-  
   100% {
     color: #ff0000b1;
   }
 }
 @keyframes y3colorful {
-
   100% {
-    color:#008000c8;
+    color: #008000c8;
   }
 }
 @keyframes y4colorful {
-
   100% {
-    color: #C0C0C0;
+    color: #c0c0c0;
   }
 }
 
 .old {
-  color: #C0C0C0;
+  color: #c0c0c0;
   position: absolute;
   top: 0%;
-  animation: old_animation 2.5s ease-in-out 4s forwards;
+  animation: old_animation 4.5s ease-in-out 4s forwards;
   margin-left: -80px;
 }
 
@@ -132,18 +128,18 @@ body {
 @keyframes new_animation {
   0% {
     right: -100px;
-    color: #C0C0C0;
+    color: #c0c0c0;
   }
   40% {
-    right: 580px;
-    color: #C0C0C0;
+    right: 260px;
+    color: #c0c0c0;
   }
   90% {
-    right: 580px;
-    color: #C0C0C0;
+    right: 360px;
+    color: #c0c0c0;
   }
   100% {
-    right: 690px; /*the corrcet postion of 4 after the animation finishes*/
+    right: 380px; /*the corrcet postion of 4 after the animation finishes*/
     color: #ff0000b1;
   }
 }
@@ -164,7 +160,7 @@ body {
   content: "";
   width: 4px;
   height: 100px;
-  background-color:  #C0C0C0;;
+  background-color: #c0c0c0;
   position: absolute;
   left: 50%;
   margin-left: -2px;
@@ -187,10 +183,10 @@ body {
     right: -100px;
   }
   40% {
-    right: 635px;
+    right: 300px;
   }
   50% {
-    right: 735px;
+    right: 380px;
     top: 50%; /* Adjust the top value to the position of the number 4 */
   }
   100% {
