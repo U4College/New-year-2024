@@ -87,7 +87,7 @@ body {
   color: #c0c0c0;
   position: absolute;
   top: 0%;
-  animation: old_animation 4.5s ease-in-out 4s forwards;
+  animation: old_animation 2.5s ease-in-out 4s forwards;
   margin-left: -80px;
 }
 
@@ -148,12 +148,12 @@ body {
   width: 100px;
   height: 120px;
   border-radius: 50%;
-  background-color: #ffd900da;
+  background-color: #ff0000b1;
   position: absolute;
   top: 50%;
   right: -100px;
   margin-top: -285px;
-  animation: balloon_animation 5.4s ease-in-out 1.5s forwards;
+  animation: balloon_animation 5.7s ease-in-out 1.5s forwards;
 }
 
 .balloon::after {
